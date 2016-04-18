@@ -1,0 +1,109 @@
+body {
+	margin:	0;
+	background-color: #f1f1f1;
+}
+header {
+	background-color: black;
+	padding:13px 20px;
+	color: #08090a;
+}
+
+header h1 {
+	background-image: url('images/logo.png');
+	background-repeat: no-repeat;
+	width: 144px;
+	height: 24px;
+	text-indent: 100%;
+	overflow: hidden;
+	margin:0;
+	display: inline-block;
+}
+header nav {
+	float: right;
+}
+header nav ul {
+	margin:	0;
+}
+header nav li a {
+	border-left: 1px solid #393a3b;
+	height: 50px;
+	box-sizing: border-box;
+	padding: 16px 20px 18px 38px;
+	color: #eceeef;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: 16px 48%;;
+}
+.inline li {
+	display: inline-block;
+}
+.explore-articles a {
+	background-image: url('images/explore-articles.gif');
+}
+.book-reviews a {
+	background-image: url('images/book-reviews.gif');
+}
+.topics a {
+	background-image: url('images/topics.gif');
+}
+.connect a {
+	background-image: url('images/connect.gif');
+}
+.subscribe a {
+	background-image: url('images/subscribe.gif');
+}
+.search a {
+	background-image: url('images/search.gif');
+}
+
+div.wrapper {
+	padding:0 31px;
+}
+
+div.primary.section {
+	margin-top:30px;
+}
+.cover-image {
+	float: right;
+}
+.tagline {
+	color: #747779;
+	font-size: 1.2em;
+}
+.tagline a {
+	color: #993333;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+.inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+.quick-links ul.inline {
+	display: inline-block;
+	padding: 0;
+	line-height: 0;
+}
+.icon {
+	text-indent: 100%;
+	overflow: hidden;
+	height: 28px;
+	width: 28px;
+	display: block;
+}
+.fb.icon {
+	background-image: url('images/fb.png');
+}
+.twitter.icon {
+	background-image: url('images/twitter.png');
+}
+.email.icon {
+	background-image: url('images/email.png');
+}
+.patreon.icon {
+	background-image: url('images/patreon.png');
+}
+.trending-topics {
+	border-left: 1px solid #d8dadb;
+	padding:10px;
+}
