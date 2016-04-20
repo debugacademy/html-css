@@ -31,4 +31,4 @@ We also teach:
 - PHP
 - and more!
 
-See http://DebugAcademy.com for more information!  
+**Our next Drupal Web Developer course begins on May 31st, 2016.** See http://DebugAcademy.com for more information!  
