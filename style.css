@@ -28,7 +28,7 @@ header nav li a {
 	border-left: 1px solid #393a3b;
 	height: 50px;
 	box-sizing: border-box;
-	padding: 16px 20px 18px 38px;
+	padding: 13px 20px 14px 38px;
 	color: #eceeef;
 	text-decoration: none;
 	background-repeat: no-repeat;
@@ -106,4 +106,27 @@ div.primary.section {
 .trending-topics {
 	border-left: 1px solid #d8dadb;
 	padding:10px;
+}
+.main-content .item {
+	position: relative;
+	float: left;
+	width: 434px;
+	margin-right: 28px;
+	border: 1px solid #ececec;
+}
+.main-content .item h4 {
+	background-color: #cc9933;
+	position: absolute;
+	top: 0;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 20px 0 0 20px;
+}
+.main-content .item .article {
+	background-color: #ffffff;
+	overflow: auto;
+	padding: 25px 21px 32px;
+}
+.main-content .item .article p, .main-content .item .article h3 {
+	margin: 0;
 }
