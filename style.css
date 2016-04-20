@@ -4,27 +4,66 @@
 /***************************/
 /***************************/
 
+/* This select targets the page's 'body' element */
+body {
+	/* 
+		- Set the 'background-color' property to '#f1f1f1'
+			Which will make the background color be light gray.
+    */
 
-/* This section is for your CSS */
+
+} 
+/*
+	'}' is a closing tag. Your 'body' CSS must be written before it.
+*/
 
 
+/* This selector targets h4 elements 
+	which have a class attribute of 'label'.  */
+h4.label {
+	/* 
+		- Set the 'font-family' property to 'verdana'
+			which will display the text using the verdana font.
+		- Set the 'color' property '#ffffff'
+			which will display the text in a white font.
+		- Set the 'text-transform' property to 'uppercase',
+			which will display the letters as all-uppercase.
+		- Set the 'font-size' property to '.8em',
+			which will shrink the font size to 80% of the default size.
+		- Set the 'font-weight' property to 'normal',
+			which will ensure the font does not display as bold.
+    */
+
+}
+/*
+	'}' is a closing tag. Your 'h4.label' CSS must be written before it.
+*/
 
 
-/***************************/
-/***************************/
-/** Write YOUR CSS Above  **/
-/***************************/
-/***************************/
+/* This selector targets elements with a class of 'item',
+	which also have a parent with a class of 'main-content'. */
+.main-content .item {
+	/* 
+		- Set the 'margin-bottom' property to '28px'
+			which will add 28px of space to the bottom of these elements
+	*/
+}
+/*
+	'}' is a closing tag. Your '.main-content .item' CSS must be written before it.
+*/
 
+/****************************/
+/****************************/
 /* Do NOT edit the below CSS */
+/****************************/
+/****************************/
 
 body {
 	margin:	0;
-	background-color: #f1f1f1;
 }
 header {
 	background-color: black;
-	padding:13px 20px;
+	padding: 13px 20px;
 	color: #08090a;
 }
 
@@ -77,11 +116,26 @@ header nav li a {
 }
 
 div.wrapper {
-	padding:0 31px;
 }
 
 div.primary.section {
 	margin-top:30px;
+	overflow: hidden;
+	border-right: 1px solid #d8dadb;
+}
+.content-wrapper {
+	max-width: 900px;
+	padding: 0 0 15px 31px;
+    overflow: hidden;
+}
+div.secondary.section {
+	max-width: 319px;
+	float:right;
+	padding: 29px;
+	box-sizing: border-box;
+}
+.above-content {
+	overflow: hidden;
 }
 .cover-image {
 	float: right;
@@ -127,19 +181,24 @@ div.primary.section {
 	border-left: 1px solid #d8dadb;
 	padding:10px;
 }
-.main-content .item {
+.item {
 	position: relative;
+}
+.main-content .item {
 	float: left;
 	width: 434px;
-	margin-right: 28px;
 	border: 1px solid #ececec;
 }
-.main-content .item h4 {
-	background-color: #cc9933;
+.main-content .item.odd {
+	margin-right: 28px;
+}
+h4.label {
+	padding: 2px 5px;
+}
+.main-content .item h4.label {
 	position: absolute;
 	top: 0;
-	color: #ffffff;
-	text-transform: uppercase;
+	background-color: #cc9933;
 	margin: 20px 0 0 20px;
 }
 .main-content .item .article {
@@ -149,4 +208,11 @@ div.primary.section {
 }
 .main-content .item .article p, .main-content .item .article h3 {
 	margin: 0;
+}
+
+.secondary.section h4.label {
+	background-color: #993333;
+	margin: 0;
+	display: inline-block;
+	margin-bottom: 15px;
 }
