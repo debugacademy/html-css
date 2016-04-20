@@ -1,0 +1,26 @@
+div, p, span, body, li, ul, img, table, tr, td, section {
+  min-width:1px;
+  min-height:1px;
+  margin:1px;
+  padding:1px;
+  border-width:1px;
+  border: 1px solid;
+}
+div {
+  border-color: grey;
+}
+p {
+  border-color:blue;
+}
+span {
+  border-color: yellow;
+} 
+ul {
+  border-color: green;
+} 
+li {
+  border-color: green;
+} 
+section {
+  border-color: purple;
+}
